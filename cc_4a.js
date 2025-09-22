@@ -21,4 +21,17 @@ for (let p of products) {
 
 console.log(`${p.name} promo price: $${p.promoPrice}`);
 }
+// made the discounts. applied student discount.
 let customerType = "student"
+let extraDiscount = 0.00;
+
+if (customerType === "student") 
+{extraDiscount=0.05;}
+else if (customerType === "senior")
+{extraDiscount =0.07;}
+else {extraDiscount === 0.00}
+
+
+
+
+
